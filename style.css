@@ -1,0 +1,44 @@
+/* Embed the custom font using @font-face */
+
+  
+  /* Apply the custom font to the body or specific elements */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 3em;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.5em;
+    color: #555;
+  }
+
+  .bold {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+  }
+
+  .initial {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: initial;
+  }
+
+  .lighter {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:lighter;
+  }
+
+  .dd {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
